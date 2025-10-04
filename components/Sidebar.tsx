@@ -55,7 +55,10 @@ const DesktopSidebar = () => {
             <div className="flex flex-col p-2">
                 {routes.map(route=> (
                     <Link key={route.href} href={route.href}
-                    className={buttonVariants({})}
+                    className={buttonVariants({
+                        variant: activeRoute.href === route.href ?
+                            "sidebarActiveItem" : "sidebarItem"
+                    })}
                     >
                         <route.icon size={20} />
                         {route.label}
