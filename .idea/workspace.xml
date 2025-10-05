@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e26b20-edc8-42f6-a25f-ed1683ff3cf6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/BreadcrumbHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BreadcrumbHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(dashboard)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +53,7 @@
     "git-widget-placeholder": "master",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "D:/Projects/scrape-flow",
+    "last_opened_file_path": "D:/Projects/scrape-flow/app/(auth)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +64,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\scrape-flow\app\(auth)" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -92,7 +103,8 @@
       <workItem from="1759554899891" duration="13000" />
       <workItem from="1759584391259" duration="1303000" />
       <workItem from="1759595747487" duration="2161000" />
-      <workItem from="1759637903895" duration="1716000" />
+      <workItem from="1759637903895" duration="1907000" />
+      <workItem from="1759653714061" duration="3014000" />
     </task>
     <servers />
   </component>
