@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+.idea
+prisma/dev.db
+prisma/test.db
+prisma/*.db-journal
+# Uncomment if you don't want to track migrations
+# prisma/migrations/
