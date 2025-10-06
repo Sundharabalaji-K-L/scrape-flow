@@ -30,7 +30,7 @@ export default function RootLayout({
        <AppProviders>
            {children}
        </AppProviders>
-       <Toaster richColors />
+       <Toaster richColors/>
        </body>
 
        </html>
