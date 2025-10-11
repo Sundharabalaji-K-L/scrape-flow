@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e26b20-edc8-42f6-a25f-ed1683ff3cf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/workflows/deleteWorkflow.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/workflows/_components/DeleteworkflowDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(dashboard)/workflows/_components/WorkflowCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TooltipWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/Editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/editor/[workflowId]/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/workflow/createFlowNode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/workflow/task/LaunchBrowser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/workflow/task/registry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/appNode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/task.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/workflows/_components/CreateWorkflowDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/workflows/_components/CreateWorkflowDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(dashboard)/workflows/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/workflows/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="HTTP Private Environment File" />
       </list>
     </option>
   </component>
@@ -31,7 +37,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -52,7 +58,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Projects/scrape-flow/app/(auth)&quot;,
@@ -72,16 +78,12 @@
     ]
   }
 }</component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\naras\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="19912128-eed2-46da-99e2-f1c7e1d46784" reportId="scrape-flow/qodana/2025-10-06" />
-    </option>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\scrape-flow\app\(auth)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\scrape-flow\app\workflow\editor\[workflowId]" />
       <recent name="D:\Projects\scrape-flow\app\(dashboard)" />
     </key>
   </component>
@@ -126,6 +128,10 @@
       <workItem from="1759692476655" duration="2098000" />
       <workItem from="1759745254919" duration="390000" />
       <workItem from="1759745660195" duration="3140000" />
+      <workItem from="1759934341631" duration="13000" />
+      <workItem from="1760163667347" duration="3594000" />
+      <workItem from="1760178216927" duration="603000" />
+      <workItem from="1760206210956" duration="4494000" />
     </task>
     <servers />
   </component>
