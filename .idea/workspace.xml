@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e26b20-edc8-42f6-a25f-ed1683ff3cf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/workflow/_components/Editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workflow/editor/[workflowId]/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/workflow/createFlowNode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/workflow/task/LaunchBrowser.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/workflow/task/registry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/appNode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/task.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeInputs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeParmField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/param/StringParm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/tobar/TopBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/workflow/_components/tobar/saveBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/workflow/_components/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/workflow/_components/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/workflow/_components/nodes/NodeComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/workflow/_components/nodes/http-client.private.env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/workflow/task/LaunchBrowser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/workflow/task/LaunchBrowser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/appNode.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/appNode.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/task.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/task.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Private Environment File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
-        <option value="HTTP Private Environment File" />
       </list>
     </option>
   </component>
@@ -132,6 +131,7 @@
       <workItem from="1760163667347" duration="3594000" />
       <workItem from="1760178216927" duration="603000" />
       <workItem from="1760206210956" duration="4494000" />
+      <workItem from="1760465560013" duration="3820000" />
     </task>
     <servers />
   </component>
