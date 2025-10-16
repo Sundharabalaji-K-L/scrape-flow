@@ -10,12 +10,13 @@ import SaveBtn from "@/app/workflow/_components/tobar/saveBtn";
 interface Props {
     title: string;
     subTitle?: string;
+    workflowId: string;
 }
 
-const TopBar = ({title, subTitle}: Props) => {
+const TopBar = ({title, subTitle, workflowId}: Props) => {
     const router = useRouter();
     return (
-       <header className="flex p-2 border-p-2 border-separate
+       <header className="flex p-2 border-b-2 border-separate
        justify-between w-full h-[60px] sticky top-0 bg-background z-10">
            <div className="flex gap-1 flex-1">
                <TooltipWrapper content="Back">
@@ -36,7 +37,7 @@ const TopBar = ({title, subTitle}: Props) => {
                </div>
            </div>
            <div className="flex gap-1 justify-end">
-               <SaveBtn />
+               <SaveBtn workflowId={workflowId} />
            </div>
        </header>
     );
