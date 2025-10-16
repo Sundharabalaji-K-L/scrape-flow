@@ -3,6 +3,7 @@ import {Handle, Position} from "@xyflow/react";
 import {cn} from "@/lib/utils";
 import {TaskParm} from "@/types/task";
 import NodeParmField from "@/app/workflow/_components/nodes/NodeParmField";
+import string from "zod/src/v3/benchmarks/string";
 
 export function NodeInputs(
     {
@@ -19,7 +20,7 @@ export function NodeInputs(
 }
 
 
-export function NodeInput({input, nodeId}: {input: TaskParm, nodeId: string}) {
+export function NodeInput({input, nodeId, key}: { input: TaskParm, nodeId: string}) {
     return (
         <div className="flex justify-start relative p-3
         bg-secondary w-full">

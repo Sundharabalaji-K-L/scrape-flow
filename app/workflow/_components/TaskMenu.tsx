@@ -34,7 +34,7 @@ const TaskMenu = () => {
     );
 };
 
-function TaskMenuBtn({ taskType }: TaskType) {
+function TaskMenuBtn({taskType} : {taskType: TaskType}) {
     const task = TaskRegistry[taskType];
     return <Button
         variant="secondary"
