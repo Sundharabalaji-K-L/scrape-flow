@@ -4,6 +4,7 @@ import {cn} from "@/lib/utils";
 import {TaskParm} from "@/types/task";
 import NodeParmField from "@/app/workflow/_components/nodes/NodeParmField";
 import string from "zod/src/v3/benchmarks/string";
+import {ColorForHandle} from "@/app/workflow/_components/nodes/common";
 
 export function NodeInputs(
     {
@@ -31,7 +32,8 @@ export function NodeInput({input, nodeId, key}: { input: TaskParm, nodeId: strin
                     id={input.name}
                     type="target"  position={Position.Left}
                     className={cn("!bg-muted-foreground !border-2 !border-background " +
-                        "!-left-2 !w-4 !h-4")}
+                        "!-left-2 !w-4 !h-4",
+                    ColorForHandle[input.type])}
                 />
             )}
         </div>
