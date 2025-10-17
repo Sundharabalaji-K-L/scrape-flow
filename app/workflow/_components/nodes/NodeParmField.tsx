@@ -5,6 +5,7 @@ import {TaskParamType, TaskParm} from "@/types/task";
 import StringParm from "@/app/workflow/_components/nodes/param/StringParm";
 import {useReactFlow} from "@xyflow/react";
 import {AppNode} from "@/types/appNode";
+import BrowserInstanceParm from "@/app/workflow/_components/nodes/param/BrowserInstanceParm";
 
 const NodeParmField = ({param, nodeId}: {param: TaskParm, nodeId: string}) => {
     const {updateNodeData , getNode} = useReactFlow();
@@ -26,6 +27,11 @@ const NodeParmField = ({param, nodeId}: {param: TaskParm, nodeId: string}) => {
        case TaskParamType.STRING:
            return (
                <StringParm param={param} value={value} updateParamValue={updateNodeParamValue} />
+           )
+
+       case TaskParamType.BROWSER_INSTANCE:
+           return (
+               <BrowserInstanceParm param={param} value={""} updateParamValue={updateNodeParamValue} />
            )
 
        default:
