@@ -1,4 +1,4 @@
-import {LaunchBrowserTask} from "@/lib/workflow/task/LaunchBrowser";
+import LaunchBrowserTask from "@/lib/workflow/task/LaunchBrowser";
 import {PageToHtmlTask} from "@/lib/workflow/task/PageToHtml";
 
 export const TaskRegistry = {

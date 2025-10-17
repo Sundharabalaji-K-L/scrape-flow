@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+import {Key, ReactNode} from "react";
 import {Handle, Position} from "@xyflow/react";
 import {cn} from "@/lib/utils";
 import {TaskParm} from "@/types/task";
@@ -20,7 +20,7 @@ export function NodeInputs(
 }
 
 
-export function NodeInput({input, nodeId, key}: { input: TaskParm, nodeId: string}) {
+export function NodeInput({input, nodeId, key}: { input: TaskParm, nodeId: string, key?: Key}) {
     return (
         <div className="flex justify-start relative p-3
         bg-secondary w-full">

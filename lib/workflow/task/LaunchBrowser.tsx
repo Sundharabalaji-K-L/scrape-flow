@@ -1,7 +1,7 @@
 import {TaskParamType, TaskType} from "@/types/task";
 import {GlobeIcon, LucideProps} from "lucide-react";
 
-export const LaunchBrowserTask = {
+const LaunchBrowserTask = {
     type: TaskType.LAUNCH_BROWSER,
     label: "Launch browser",
     icon: (props: LucideProps) => (
@@ -17,5 +17,12 @@ export const LaunchBrowserTask = {
             required: true,
             hideHandle: true
         }
+    ],
+    outputs: [
+        {
+            name: "Web page",
+            type: TaskParamType.BROWSER_INSTANCE
+        }
     ]
 }
+export default LaunchBrowserTask
