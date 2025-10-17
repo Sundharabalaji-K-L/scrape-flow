@@ -14,7 +14,7 @@ export function NodeOutputs({children}: {children: ReactNode}) {
 }
 
 
-export function NodeOutput({output, key}: {output: TaskParm, key: Key}) {
+export function NodeOutput({output}: {output: TaskParm}) {
     return <div className="flex justify-end relative p-3 bg-secondary">
         <p className="text-xs text-muted-foreground">{output.name}</p>
         <Handle

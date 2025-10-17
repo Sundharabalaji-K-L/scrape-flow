@@ -21,7 +21,7 @@ export function NodeInputs(
 }
 
 
-export function NodeInput({input, nodeId, key}: { input: TaskParm, nodeId: string, key?: Key}) {
+export function NodeInput({input, nodeId}: { input: TaskParm, nodeId: string}) {
     return (
         <div className="flex justify-start relative p-3
         bg-secondary w-full">
