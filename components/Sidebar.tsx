@@ -10,7 +10,7 @@ import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet";
 
 const routes = [
     {
-        href: "",
+        href: "/",
         label: "Home",
         icon: HomeIcon,
     },
