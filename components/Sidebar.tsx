@@ -15,17 +15,17 @@ const routes = [
         icon: HomeIcon,
     },
      {
-        href: "workflows",
+        href: "/workflows",
         label: "Workflows",
         icon: Layers2Icon,
     },
      {
-        href: "credentials",
+        href: "/credentials",
         label: "Credentials",
         icon: ShieldCheckIcon,
     },
      {
-        href: "billing",
+        href: "/billing",
         label: "Billing",
         icon: CoinsIcon,
     },
@@ -35,9 +35,9 @@ const routes = [
 function DesktopSidebar() {
   const pathName = usePathname();
 
-  const activeRoute = routes.find(
-    (route)=> route.href.length > 0 && pathName.includes(route.href)
-  ) || routes[0];
+    const activeRoute = routes.find((route) =>
+        route.href !== "/" && pathName.startsWith(route.href)
+    ) || routes[0];
 
   return (
     <div className="hidden relative md:block min-w-[280px] max-w-[280px]
@@ -68,8 +68,8 @@ export function MobileSidebar() {
     const [isOpen, setIsOpen] = useState(false);
     const pathName = usePathname();
 
-    const activeRoute = routes.find(
-        (route)=> route.href.length > 0 && pathName.includes(route.href)
+    const activeRoute = routes.find((route) =>
+        route.href !== "/" && pathName.startsWith(route.href)
     ) || routes[0];
 
     return (
